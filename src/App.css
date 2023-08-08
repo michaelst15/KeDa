@@ -7,6 +7,36 @@
   pointer-events: none;
 }
 
+.component-ref {
+  border: 'none'
+}
+
+.sudut-kiri-atas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 200px;
+  border-bottom-right-radius: 160px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(46,184,232,1) 36%);
+  /* background-position-x: ; */
+  /* background: linear-gradient(90deg, rgba(9,4,93,1) 50%, rgba(135,33,133,1) 90%); */
+}
+
+.sudut-kanan-bawah {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(46, 184, 232, 1) 36%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), calc(100% - 50px) 100%, 0 100%);
+  z-index: -1; /* Letakkan elemen ini di bawah konten utama */
+  box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

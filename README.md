@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Keterangan Website
+
+1. Menggunakan Library Ant Design untuk design komponen tampilan
+2. Menggunakan React Js
+3. Menggunakan Animasi Type writer dari package typewriter-effect
+
 ## Available Scripts
 
 In the project directory, you can run:
