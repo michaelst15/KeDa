@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Menggunakan Library Ant Design untuk design komponen tampilan
 2. Menggunakan React Js
 3. Menggunakan Animasi Type writer dari package typewriter-effect
+4. Sudah di Deploy dengan vercel => https://test2-michaelst15.vercel.app/
 
 ## Available Scripts
 
